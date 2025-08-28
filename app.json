@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CaloriZen",
+    "slug": "calorizen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0f0a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.izharahmad.calorizen"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0a0f0a"
+      },
+      "package": "com.izharahmad.calorizen"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1494bec4-b20b-4bf7-b271-819445820a8b"
+      }
+    }
+  }
+}

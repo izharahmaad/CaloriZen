@@ -1,0 +1,30 @@
+{
+  "name": "calorizen-simple-calorie-planner",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/poppins": "^0.4.0",
+    "@expo/vector-icons": "^14.1.0",
+    "expo": "^53.0.20",
+    "expo-font": "~13.3.2",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-router": "^5.1.4",
+    "expo-status-bar": "~2.0.0",
+    "react": "^19.0.0",
+    "react-native": "^0.79.2",
+    "react-native-svg": "15.11.2",
+    "react-native-reanimated": "~3.17.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.11",
+    "@types/react-native": "^0.73.0",
+    "typescript": "~5.4.0"
+  }
+}
