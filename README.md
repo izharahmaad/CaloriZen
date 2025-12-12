@@ -1,59 +1,51 @@
-📱 CaloriZen – Simple & Smart Calorie Planner
+CALORIZEN – SIMPLE AND SMART CALORIE PLANNER 📱🌿
 
-CaloriZen is a modern, beautifully designed calorie calculator app built with React Native (Expo).
-It helps users calculate their daily calorie needs for weight loss, weight gain, or maintenance using the latest formulas.
+CaloriZen is a React Native app built with Expo that helps users calculate their daily calorie needs for maintaining, gaining, or losing weight. The app focuses on clarity, smooth navigation, and a modern interface, making it easy for users to plan their goals and track progress.
 
-✨ Features
+✨ Main Features
 
-✅ 4 clean screens – Welcome, Input, Goal selection, and Results
-✅ Beautiful green/dark theme 🌿
-✅ Custom Poppins font for a modern look
-✅ Weight & height units toggle (KG/LB, CM/FT)
-✅ Animated gauge for daily calorie display 🔥
-✅ Smart breakdown: mild, moderate, extreme loss/gain
-✅ Notes field – users can write goals or reminders
-✅ Expo Router navigation for clean screen flow
-✅ Vector icons (Ionicons) for intuitive UI
-✅ Fully responsive – looks great on all devices
+Step-by-step guidance with four clean screens: welcome, input, goal selection, and results
+Soft green and dark theme for a balanced and calming interface
+Custom Poppins font for a sleek, modern look
+Unit switching for weight (kg/lb) and height (cm/ft)
+Animated circular gauge showing daily calorie targets clearly
+Mild, moderate, and extreme adjustments for both weight loss and weight gain
+Notes section to record personal goals, reminders, or progress
+Smooth navigation powered by Expo Router
+Friendly icons using Ionicons
+Fully responsive layout that adapts to all devices
+Reanimated animations for smooth transitions
+SVG-based gauge for accurate and clean visuals
 
-	
 ⚙️ Tech Stack
 
-React Native (Expo SDK 53)
+React Native with Expo SDK
+Expo Router for navigation
+Expo Linear Gradient for background effects
+React Native Reanimated for animations
+React Native SVG for the circular gauge
+Poppins font from Expo Google Fonts
 
-Expo Router – navigation
+🚀 Installation & Running the App
 
-Expo Linear Gradient – stylish backgrounds
-
-React Native Reanimated – smooth animations
-
-React Native SVG – circular calorie gauge
-
-@expo-google-fonts/poppins – custom typography
-
-🚀 Installation
-
-Clone the repo:
-
+Clone the project:
 git clone https://github.com/izharahmaad/CaloriZen.git
+
+Open the folder:
 cd CaloriZen
 
-
 Install dependencies:
-
 npm install
 
-
-Run locally:
-
+Start the app:
 npx expo start
 
+Open the app using the Expo Go scanner on Android or iOS.
 
-Scan QR with Expo Go app (Android/iOS).
+📦 Building for Android
 
-📦 Build APK / AAB
+Test build (APK)
+eas build -p android --profile preview
 
-To create a build with Expo EAS:
-
-eas build -p android --profile preview   # for APK test build
-eas build -p android --profile production # for Play Store release (AAB)
+Production build (AAB for Play Store)
+eas build -p android --profile production
